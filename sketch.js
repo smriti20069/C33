@@ -114,6 +114,6 @@ async function getBackgroundImg(){
         bg = "sprites/bg2.jpg";
     }
 
-    backgroundImg = loadImage(bg);
+    backgroundImg = loadImage(backgroundImg);
     console.log(backgroundImg);
 }
